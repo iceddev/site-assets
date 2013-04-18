@@ -367,6 +367,29 @@ footer {
   text-transform: capitalize;
 }
 
+.post-navigation {
+  margin: 15px 0;
+}
+
+.post-navigation a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 120%;
+}
+
+.newer,
+.older {
+  background-color: #10B7FB;
+  padding: 5px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  background-clip: padding-box;
+}
+
+.older {
+  float: right;
+}
+
 /* PRISM overrides */
 :not(pre) > code[class*="language-"],
 pre[class*="language-"] {
